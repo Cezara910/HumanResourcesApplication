@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{CA66C2F3-EE35-4E76-B737-9C1CB63656F3}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.hr1 PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="hr1/Controllers/GenderController.cs">
+    <Files>
+      <File FileName="hr1/Program.cs" Line="34" Column="21" IsPinned="True" />
+      <File FileName="hr1/humanResources/Employee.cs" Line="11" Column="9" IsPinned="True" />
+      <File FileName="hr1/Views/Employee/Create.cshtml" Line="32" Column="13" IsPinned="True" />
+      <File FileName="hr1/wwwroot/css/site.css" Line="157" Column="20" IsPinned="True" />
+      <File FileName="hr1/Views/Shared/_Layout.cshtml" Line="12" Column="98" IsPinned="True" />
+      <File FileName="hr1/Views/Employee/Edit.cshtml" Line="28" Column="16" />
+      <File FileName="hr1/Views/Employee/Index.cshtml" Line="36" Column="19" />
+      <File FileName="hr1/Controllers/Employee.cs" Line="54" Column="52" />
+      <File FileName="hr1/Views/Home/Index.cshtml" Line="85" Column="29" />
+      <File FileName="hr1/Views/Home/Departments.cshtml" Line="20" Column="1" />
+      <File FileName="hr1/Controllers/HomeController.cs" Line="48" Column="1" />
+      <File FileName="hr1/Migrations/hr1IdentityDb/20221115100247_CreateIdentitySchema.cs" Line="1" Column="1" />
+      <File FileName="hr1/Controllers/SalariesController.cs" Line="1" Column="1" />
+      <File FileName="hr1/Controllers/GenderController.cs" Line="9" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="hr1" expanded="True">
+            <Node name="hr1" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Identity" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="GenderController.cs" selected="True" />
+              </Node>
+              <Node name="humanResources" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Employee" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

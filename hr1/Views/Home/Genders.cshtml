@@ -1,0 +1,126 @@
+﻿
+
+@{
+    ViewData["Title"] = "Employees by Gender";
+}
+
+<head>
+    <script type="text/javascript">$(document).ready(function () {
+            LoadChart();
+
+            function LoadChart() {
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Gender/EmployeesByGender",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        let femaleStats = document.getElementById('highFemaleStats');
+                        let maleStats = document.getElementById('highMaleStats');
+                        let lowFemaleStats = document.getElementById('lowFemaleStats');
+                        let lowMaleStats = document.getElementById('lowMaleStats');
+                        let canvas = document.getElementById('myChart');
+
+                        let data = response;
+                        var parsed = JSON.parse(data);
+                        console.log(parsed);
+                        maleStats.innerText = (parsed.employeesByGenders.filter(g => (g.Gender == "M ")).map(d => d.PerformantCount) /
+                            parsed.employeesByGenders.filter(g => (g.Gender == "M ")).map(d => d.Employees) * 100).toFixed(3) + "%";
+                        femaleStats.innerText = (parsed.employeesByGenders.filter(g => (g.Gender == "F")).map(d => d.PerformantCount) /
+                            parsed.employeesByGenders.filter(g => (g.Gender == "F")).map(d => d.Employees) * 100).toFixed(3) + "%";
+                        lowFemaleStats.innerText = (parsed.employeesByGenders.filter(g => (g.Gender == "F")).map(d => d.NonPerformantCount) /
+                            parsed.employeesByGenders.filter(g => (g.Gender == "F")).map(d => d.Employees) * 100).toFixed(3) + "%";
+                        lowMaleStats.innerText = (parsed.employeesByGenders.filter(g => (g.Gender == "M ")).map(d => d.NonPerformantCount) /
+                            parsed.employeesByGenders.filter(g => (g.Gender == "M ")).map(d => d.Employees) * 100).toFixed(3) + "%";
+                        let chart = new Chart(canvas.getContext("2d"),
+
+                            {
+                                type: 'polarArea',
+                                data: {
+                                    labels: parsed.employeesByGenders.map(d => d.Gender),
+                                    datasets: [
+                                        {
+                                            label: 'Employees Per Department',
+                                            data: parsed.employeesByGenders.map(d => d.Employees),
+                                            backgroundColor: [
+                                                '#D5B6E0',
+                                                '#B6D6E0'
+                                            ],
+                                            hoverOffset: 4
+                                        }
+                                    ]
+                                },
+                                options: {
+                                    animation: {
+                                        animateRotate: true
+                                    }
+                                }
+                            });
+
+                        failure: function f(response) {
+                            alert('There was an error.');
+                        }
+                    }
+                });
+            }
+        });</script>
+</head>
+
+
+<div class="d-flex justify-content-around mw-100 mh-100">
+    <div class="d-flex flex-column pt-3">
+        <p class="h1 py-3" style="color: #4C98B1; font-size: 3rem" id="employeesChart">Employees By Gender</p>
+        <div id="dvChart" class="pr-5 mr-5">
+            <canvas id="myChart" width="600" height="530" class="rounded mt-3" style="background-color: #EFF2FA; border-style: solid; border-color: #E0E5F2; border-width: 5px "></canvas>
+        </div>
+    </div>
+    <div class="d-flex flex-column rounded p-3" style="background-color: #EFF2FA; border-style: solid; border-color: #E0E5F2; border-width: 5px ">
+        <div class="d-flex flex-column px-5">
+            <p class="h2 text-right p-3 mt-3" style="color: #5F76BA "> High performance</p>
+            <div id="highPerformanceStats" class="h5 rounded-xl d-flex flex-column p-3" style="color: #B1B6C8; background-color: #F5F7FB ">
+                <div class="d-flex flex-row p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-woman d-inline" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="5" r="2" />
+                        <path d="M10 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" />
+                    </svg><p class="h1 d-inline ms-3" style="color: #4C98B1 " id="highFemaleStats"></p>
+                </div>
+                <div class="d-flex flex-row p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-man" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="5" r="2" />
+                        <path d="M10 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5" />
+                    </svg><p class="h1 d-inline ms-3" style="color: #4C98B1 " id="highMaleStats"></p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-column px-5 pb-3">
+            <p class="h2 text-right p-3" style="color: #5F76BA "> Low performance</p>
+            <div id="lowPerformanceStats" class="h5 rounded-xl d-flex flex-column p-3" style="color: #5F76BA; background-color: #F5F7FB ">
+                <div class="d-flex flex-row p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-woman" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="5" r="2" />
+                        <path d="M10 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" />
+                    </svg>
+                    <p class="h1 ms-3" style="color: #4C98B1 " id="lowFemaleStats"></p>
+                </div>
+                <div class="d-flex flex-row p-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-man" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="5" r="2" />
+                        <path d="M10 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5" />
+                    </svg>
+                    <p class="h1 ms-3" style="color: #4C98B1 " id="lowMaleStats"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="dvLegend"></div>
+
+
+

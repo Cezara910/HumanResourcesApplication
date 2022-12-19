@@ -1,0 +1,69 @@
+﻿
+
+@{
+    ViewData["Title"] = "Departments";
+}
+
+<head>
+    <script type="text/javascript">$(document).ready(function () {
+            LoadChart();
+
+            function LoadChart() {
+                let chartType = "bar";
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Departments/EmployeesPerDept",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+
+                        var canvas = document.getElementById('myChart');
+                        let data = response;
+                        var parsed = JSON.parse(data);
+                        console.log(parsed);
+                        var chart = new Chart(canvas.getContext("2d"),
+                            {
+                                type: 'pie',
+                                data: {
+                                    labels: parsed.employeesPerDepartments.map(d => d.Department),
+                                    datasets: [
+                                        {
+                                            label: 'Employees Per Department',
+                                            data: parsed.employeesPerDepartments.map(d => d.Employees),
+                                            backgroundColor: [
+                                                '#B6D6E0',
+                                                '#D5B6E0',
+                                                '#E0C0B6',
+                                                '#C1E0B6',
+                                                '#E3B8DE',
+                                                '#E3D6A1'
+                                            ],
+                                            hoverOffset: 4
+                                        }
+                                    ]
+                                },
+                                options: {
+                                    animation: {
+                                        animateRotate: true
+                                    }
+                                }
+                            });
+
+                        failure: function f(response) {
+                            alert('There was an error.');
+                        }
+                    }
+                });
+            }
+        });</script>
+</head>
+
+
+<p class="h1 mt-2" style="color: #4C98B1" id="employeesChart">Employees per Department</p>
+<div id="dvChart" class="pt-3">
+    <canvas id="myChart" width="400" height="225" class="rounded p-3" style="background-color: #F7FCFD; border-style: solid; border-color: #ECEFF7; border-width: 5px "></canvas>
+</div>
+<div id="dvLegend"></div>
+
+

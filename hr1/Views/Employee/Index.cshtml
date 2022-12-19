@@ -1,0 +1,114 @@
+@model IEnumerable<hr1.humanResources.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="d-flex flex-row justify-content-between">
+    <h1 style="color: #4C98B1">Admin Panel</h1>
+    <p>
+        <a asp-action="Create" class="btn btn-outline-success">Create New</a>
+    </p>
+</div>
+
+<form asp-controller="Employee" asp-action="Index">
+    <p>
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm">@@</span>
+            </div>
+            <input name="SearchString" class="form-control" type="text" placeholder="Employee Name" aria-label="Employee Name" aria-describedby="inputGroup-sizing-sm">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-sm-1">$</span>
+            </div>
+            @Html.DropDownList("SearchStringDept", (SelectList)ViewData["Departments"], "Select Department",
+                                                                                                                                  new { @class = "form-control" })
+        </div>
+        <div class="input-group input-group-sm mb-3">
+            <div class="input-group-text">
+                <input type="checkbox" aria-label="Checkbox" name="SelectedLimit" value="checked">
+            </div>
+            <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2">Select last 25 records</span>
+            </div>
+        </div>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<table class="table table-striped table-hover rounded">
+    <thead>
+        <tr class="table-light p-3">
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sex)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaritalStatus.MaritalDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Position.Position1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dept.Department1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PerfScore.PerformanceScore)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpStatus.EmploymentStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Absences)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="table-light p-3">
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmployeeName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sex)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaritalStatus.MaritalDesc)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Position.Position1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dept.Department1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Salary)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PerfScore.PerformanceScore)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmpStatus.EmploymentStatus)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Absences)
+                </td>
+
+                <td>
+                    <a class="btn btn-outline-primary btn-sm" asp-action="Edit" asp-route-id="@item.EmpId">Edit</a>
+                    <a class="btn btn-outline-secondary btn-sm" asp-action="Details" asp-route-id="@item.EmpId">Details</a>
+                    <a class="btn btn-outline-danger btn-sm" asp-action="Delete" asp-route-id="@item.EmpId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

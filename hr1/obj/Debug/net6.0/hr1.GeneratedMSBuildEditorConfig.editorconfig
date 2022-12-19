@@ -1,0 +1,241 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = hr1
+build_property.RootNamespace = hr1
+build_property.ProjectDir = /Users/biancacezara/Projects/hr1/hr1/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/biancacezara/Projects/hr1/hr1
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvQ29uZmlybUVtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/ConfirmEmailChange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvQ29uZmlybUVtYWlsQ2hhbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/ExternalLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvRXh0ZXJuYWxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvRm9yZ290UGFzc3dvcmRDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTG9ja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/LoginWith2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTG9naW5XaXRoMmZhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/LoginWithRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTG9naW5XaXRoUmVjb3ZlcnlDb2RlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL0NoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/DeletePersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL0RlbGV0ZVBlcnNvbmFsRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/Disable2fa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL0Rpc2FibGUyZmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/DownloadPersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL0Rvd25sb2FkUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL0VtYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL0VuYWJsZUF1dGhlbnRpY2F0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL0V4dGVybmFsTG9naW5zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/GenerateRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL0dlbmVyYXRlUmVjb3ZlcnlDb2Rlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL1BlcnNvbmFsRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/ResetAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL1Jlc2V0QXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/SetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL1NldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/ShowRecoveryCodes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL1Nob3dSZWNvdmVyeUNvZGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL1R3b0ZhY3RvckF1dGhlbnRpY2F0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL19NYW5hZ2VOYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL19TdGF0dXNNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL19WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Manage/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvTWFuYWdlL19WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvUmVnaXN0ZXJDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/ResendEmailConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvUmVzZW5kRW1haWxDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvUmVzZXRQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvX1N0YXR1c01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/dotnet aspnetcore main src-Identity_UI_src_Areas_Identity_Pages_V5_Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvZG90bmV0IGFzcG5ldGNvcmUgbWFpbiBzcmMtSWRlbnRpdHlfVUlfc3JjX0FyZWFzX0lkZW50aXR5X1BhZ2VzX1Y1X0FjY291bnQvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wbG95ZWUvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Home/Departments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZXBhcnRtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Home/Genders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HZW5kZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Home/Performance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9QZXJmb3JtYW5jZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Home/Salaries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TYWxhcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Shared/_MenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19NZW51UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/biancacezara/Projects/hr1/hr1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qpt8rddkqt

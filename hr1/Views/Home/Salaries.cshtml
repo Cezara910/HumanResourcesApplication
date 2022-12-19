@@ -1,0 +1,76 @@
+﻿
+
+@{
+    ViewData["Title"] = "Salaries";
+}
+
+<head>
+    <script type="text/javascript">$(document).ready(function () {
+            LoadChart();
+
+            function LoadChart() {
+                let chartType = "bar";
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Salaries/SalariesPerDept",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        let option = {
+                            scales: {
+                                yAxes: [{
+                                    gridLines: {
+                                        display: true,
+                                        color: "rgba(255,99,132,0.2)"
+                                    },
+                                    ticks: {
+                                        suggestedMin: 50000,
+                                    }
+                                }],
+                                xAxes: [{
+                                    gridLines: {
+                                        display: true,
+                                        color: "#D3A698"
+                                    }
+                                }]
+                            }
+                        };
+
+                        var canvas = document.getElementById('myChart');
+                        let data = response;
+                        var parsed = JSON.parse(data);
+                        console.log(parsed);
+                        var chart = new Chart(canvas.getContext("2d"),
+                            {
+                                type: 'bar',
+                                data: {
+                                    labels: parsed.salariesPerDepartments.map(d => d.Department),
+                                    datasets: [
+                                        {
+                                            label: 'Salaries Per Department',
+                                            data: parsed.salariesPerDepartments.map(d => d.AverageSalary),
+                                            backgroundColor: "rgba(207,230,133,0.6)"
+                                        }
+                                    ]
+                                },
+                                options: option
+                            });
+
+                        failure: function f(response) {
+                            alert('There was an error.');
+                        }
+                    }
+                });
+            }
+        });</script>
+</head>
+
+
+<p class="h1 mt-2" style="color: #4C98B1" id="salariesChart">Salaries per Department</p>
+<div id="dvChart">
+    <canvas id="myChart" width="400" height="200"></canvas>
+</div>
+<div id="dvLegend"></div>
+
+

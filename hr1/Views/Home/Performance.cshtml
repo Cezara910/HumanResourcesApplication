@@ -1,0 +1,91 @@
+﻿
+
+@{
+    ViewData["Title"] = "Performance";
+}
+
+<head>
+    <script type="text/javascript">$(document).ready(function () {
+            LoadChart();
+
+            function LoadChart() {
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Departments/PerformantEmployeesPerDept",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (response) {
+                        let performanceStats = document.getElementById('PerformanceStats');
+                        let departments = document.getElementById('Departments');
+                        var canvas = document.getElementById('myChart');
+
+
+                        let data = response;
+                        var parsed = JSON.parse(data);
+                        console.log(parsed.employeesPerDepartments);
+                        parsed.employeesPerDepartments.forEach(item => {
+                            performanceStats.innerHTML += "<p class= 'h6 d - inline ms - 3' style = 'color: #AFB7CD'> " + item.Department + ":" + "</p>"
+                                + (item.PerformantEmployeesCount / item.Employees * 100).toFixed(3) + "%" + "<br/><br/>";
+                        });
+
+                        var chart = new Chart(canvas.getContext("2d"),
+
+                            {
+                                type: 'polarArea',
+                                data: {
+                                    labels: parsed.employeesPerDepartments.map(d => d.Department),
+                                    datasets: [
+                                        {
+                                            label: 'Employees Per Department',
+                                            data: parsed.employeesPerDepartments.map(d => d.PerformantEmployeesCount),
+                                            backgroundColor: [
+                                                '#B6D6E0',
+                                                '#D5B6E0',
+                                                '#E0C0B6',
+                                                '#C1E0B6',
+                                                '#E3B8DE',
+                                                '#E3D6A1'
+                                            ],
+                                            hoverOffset: 4
+                                        }
+                                    ]
+                                },
+                                options: {
+                                    animation: {
+                                        animateRotate: true
+                                    }
+                                }
+                            });
+
+                        failure: function f(response) {
+                            alert('There was an error.');
+                        }
+                    }
+                });
+            }
+        });</script>
+</head>
+
+
+<div class="d-flex justify-content-around mw-100 mh-100">
+    <div class="d-flex flex-column pt-3">
+        <p class="h1 py-3 mt-3" style="color: #4C98B1; font-size: 3rem" id="employeesChart">Performance by Department</p>
+        <div id="dvChart" class="pr-5 mr-5">
+            <canvas id="myChart" width="600" height="540" class="rounded mt-3" style="background-color: #F2F7F6; border-style: solid; border-color: #E0E5F2; border-width: 5px "></canvas>
+        </div>
+    </div>
+    <div class="d-flex flex-column rounded p-3" style="background-color: #F4FAF8; border-style: solid; border-color: #E0E5F2; border-width: 5px ">
+        <p class="h2 text-right p-3" style="color: #4CB198 "> Exceeds expectations</p>
+        <div id="highPerformanceStats" class="h5 rounded-xl d-flex flex-column" style="color: #B1B6C8; background-color: #F2F7F6 ">
+            <div class="d-flex flex-column p-3">
+                <p class="h4 d-inline" style="color: #4C98B1 " id="PerformanceStats"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
